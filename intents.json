@@ -1,0 +1,235 @@
+{
+   "intents":[
+      {
+         "tag": "greeting",
+         "patterns": [
+           "Hi",
+           "Hey",
+           "Holla",
+           "How are you",
+           "Is anyone there?",
+           "Hello",
+           "Good day"
+         ],
+         "responses": [
+           "Hey there , I'm here to help you give knowledge regarding COVID-19 ",
+           "Hello, thanks for visiting . I'm your Corona -ve Chatbot , how may I service you ?",
+           "Hi there, COVID ChatBot here . What can I do for you?"
+         ]
+       },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Nice chatting to you, bye",
+            "Till next time"
+         ],
+         "responses":[
+            "See you!",
+            "Have a nice day",
+            "Bye! Come back again soon."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Awesome, thanks",
+            "Thanks for helping me"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"noanswer",
+         "patterns":[
+         ],
+         "responses":[
+            "Sorry, can't understand you",
+            "Please give me more info",
+            "Not sure I understand"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"covidis",
+         "patterns": ["What is covid-19?","covid?","what is corona?","coronavirus?","what is coronavirus?","covid-19?"],
+         "responses": ["Coronavirus disease 2019 (COVID-19) is a contagious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The first known case was identified in Wuhan, China, in December 2019.The disease has since spread worldwide, leading to an ongoing pandemic."]
+       },
+      {
+         "tag":"covid",
+         "patterns": ["How does COVID-19 spread?","covid spread?","how covid spread?","How does covid-19 spread?","corona spread?","corona virus spread?","How does coronavirus spread","covid19 spread"],
+         "responses": ["People can catch COVID-19 from others who have the virus. The disease can spread from person   to person through small droplets from the nose or mouth which are spread when a person with   COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person.   Other people then catch COVID-19 by touching these objects or surfaces, then touching their   eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person   with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than   1 meter (3 feet) away from a person who is sick."]
+       },
+       {
+         "tag":"symptoms",
+         "patterns": ["What are the symptoms of COVID-19?","symptoms of covid","symptoms of corona","symptoms of cornavirus","symptoms of covid-19"],
+         "responses": ["The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients   may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These   symptoms are usually mild and begin gradually. Some people become infected but dont   develop any symptoms and don't feel unwell. Most people (about 80%) recover from the   disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19   becomes seriously ill and develops difficulty breathing. Older people, and those with underlying   medical problems like high blood pressure, heart problems or diabetes, are more likely to   develop serious illness. People with fever, cough and difficulty breathing should seek medical   attention."]
+       },
+       {
+         "tag":"identify",
+         "patterns": ["How do I know if it is COVID-19 or just the common flu?","distinguish between common flu and coronavirus","common flu and coronavirus","does common flu means you have covid19"],
+         "responses": ["A COVID-19 infection has the same signs and symptoms as the common cold and you can only   differentiate them through laboratory testing to determine the virus type. If you have fever, cough   and difficulty breathing, you should seek medical attention and immediately isolate yourself from   others. Call your local UN clinic/medical facility to inform them of your condition and relevant   travel/exposure history. If you had been identified as a close contact of a case by the local   Ministry of Health or WHO, please also indicate this. From here you will be advised if a medical   assessment is necessary and how to get tested."]
+       },
+       {
+         "tag":"transmission",
+         "patterns": ["Can the virus that causes COVID-19 be transmitted through the air?","can covid spread through air","is it possible that coronavirus could spread through air","spread through air?"],
+         "responses": ["Studies to date suggest that the virus that causes COVID-19 is mainly transmitted through   contact with respiratory droplets rather than through the air."]
+       },
+       {
+         "tag":"precaution",
+         "patterns": ["What can I do to protect myself and prevent the spread of disease?","precaution that should be taken to prevent covid19","precaution for covid19","precaution for coronavirus"],
+         "responses": ["Protection measures for everyone   Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website   and through your national and local public health authority. Many countries around the world   have seen cases of COVID-19 and several have seen outbreaks. Authorities in China and some   other countries have succeeded in slowing or stopping their outbreaks. However, the situation is   unpredictable so check regularly for the latest news. You can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:   Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them     with soap and water. Why? Washing your hands with soap and water or using alcohol-based     hand rub kills viruses that may be on your hands.   Maintain at least 1 meter (3 feet) distance between yourself and anyone who is coughing or     sneezing. Why? When someone coughs or sneezes, they spray small liquid droplets from     their nose or mouth which may contain virus. If you are too close, you can breathe in the     droplets, including the COVID-19 virus if the person coughing has the disease.   Avoid touching eyes, nose and mouth. Why? Hands touch many surfaces and can pick up     viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From     there, the virus can enter your body and can make you sick.   Make sure you, and the people around you, follow good respiratory hygiene. This means     covering your mouth and nose with your bent elbow or tissue when you cough or sneeze.     Then dispose of the used tissue immediately. Why? Droplets spread virus. By following     good respiratory hygiene, you protect the people around you from viruses such as cold, flu     and COVID-19.   Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek     medical attention and call in advance. Follow the directions of your local health authority.     Why? National and local authorities will have the most up to date information on the     situation in your area. Calling in advance will allow your health care provider to quickly     direct you to the right health facility. This will also protect you and help prevent spread of     viruses and other infections.   Keep up to date on the latest COVID-19 hotspots (cities or local areas where COVID-19 is     spreading widely). If possible, avoid traveling to places ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ especially if you are an older     person or have diabetes, heart or lung disease. Why? You have a higher chance of catching     COVID-19 in one of these areas."]
+       },
+       {
+         "tag":"mask",
+         "patterns": ["I am well and asymptomatic. Should I use a mask?","is it necesaary to wear mask?","when to wear mask?","wear mask to protect from covid?","is wearing mask necessary?"],
+         "responses": ["According to the WHO, for individuals without respiratory symptoms, a medical mask is not required, as no evidence is available on its usefulness to protect non-sick persons. However, masks might be worn in some countries according to local cultural habits. If masks are used, best practices should be followed on how to wear, remove, and dispose of them and on hand hygiene action after removal. For more information, visit the WHO guidance on use of masks in the community."]
+       },
+       {
+         "tag":"chances",
+         "patterns": ["How likely am I to catch COVID-19?","possibility of catching covid-19","possibility of catching coronavirus","what are the chances of getting infected with covid","getting infected with covid19","probability of catching coronavirus"],
+         "responses": ["The risk depends on where you are - and more specifically, whether there is a COVID-19 outbreak unfolding there. For most people in most locations the risk of catching COVID-19 is still low. However, there are now places around the world (cities or areas) where the disease is spreading. For people living in, or visiting, these areas the risk of catching COVID-19 is higher. Governments and health authorities are taking vigorous action every time a new case of COVID-19 is identified. Be sure to comply with any local restrictions on travel, movement or large gatherings. Cooperating with disease control efforts will reduce your risk of catching or spreading COVID-19. COVID-19 outbreaks can be contained and transmission stopped, as has been shown in China and some other countries. Unfortunately, new outbreaks can emerge rapidly. Its important to be aware of the situation where you are or intend to go. WHO publishes daily updates on the COVID-19 situation worldwide. You can see these at https://www.who.int/emergencies/diseases/novel-coronavirus- 2019/situation-reports/"]
+       },
+       {
+         "tag":"pregnancy",
+         "patterns": ["Are pregnant women more susceptible to the COVID-19 virus and will it harm the fetus?","are pregnant women more prone to covid-19 virus","will covid19 virus harm the fetus of pregnant women","is pregnant women more vulnerable to coronavirus"],
+         "responses": ["We do not have information from published scientific reports about the susceptibility of pregnant women to COVID-19. Pregnant women experience immunologic and physiologic changes, which might make them more susceptible to viral respiratory infections, including COVID-19. The virus that causes COVID-19 is thought to spread mainly by close contact with an infected person through respiratory droplets. Whether a pregnant woman with COVID-19 can transmit the virus that causes COVID-19 to her fetus or neonate by other routes of vertical transmission (before, during, or after delivery) is still unknown."]
+       },
+       {
+         "tag":"pregnant",
+         "patterns": ["What is the risk of my child becoming sick with COVID-19?","chances of child being sick due to corona virus","how vulnerable a child is to covid19","risk of children getting infected with coronavirus","chances of children to get infected with covid19"],
+         "responses": ["Based on available evidence, children do not appear to be at higher risk for COVID-19 than adults. While some children and infants have been sick with COVID-19, adults make up most of the known cases to date. You can learn more about who is most at risk for health problems if they have COVID-19 infection on CDCs current Risk Assessment page."]
+       },
+       {
+         "tag":"difference",
+         "patterns": ["Are the symptoms of COVID-19 different in children than in adults?","is the symptooms of covid differ in child and adults","difference in symptoms of child and adults"],
+         "responses": ["No. The symptoms of COVID-19 are similar in children and adults. However, children with confirmed COVID-19 have generally presented with mild symptoms. Reported symptoms in children include cold-like symptoms, such as fever, runny nose, and cough. Vomiting and diarrhea have also been reported. Its not known yet whether some children may be at higher risk for severe illness, for example, children with underlying medical conditions and special healthcare needs. There is much more to be learned about how the disease impacts children."]
+       },
+       {
+         "tag":"worry",
+         "patterns": ["Should I worry about COVID-19?","should i be stressed about covid19","should one take stress about covid19","worry about coronavirus"],
+         "responses": ["Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care. It is therefore quite normal for people to worry about how the COVID-19 outbreak will affect them and their loved ones. We can channel our concerns into actions to protect ourselves, our loved ones and our communities. First and foremost, among these actions is regular and thorough hand-washing and good respiratory hygiene. Secondly, keep informed and follow the advice of the local health authorities including any restrictions put in place on travel, movement and gatherings."]
+       },
+       {
+         "tag":"risk",
+         "patterns": ["Who is at risk of developing severe illness?","most vulnerable people to covid19","who has greater chances of developing serious covid","who are more prone to get ill severely"],
+         "responses": ["While we are still learning about how COVID-2019 affects people, older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes) appear to develop serious illness more often than others."]
+       },
+       {
+         "tag":"antibiotics",
+         "patterns": ["Are antibiotics effective in preventing or treating COVID-19?","is medicine effective for treating covid","effectiveness of medicines against coronavirus","effectiveness of medicines against coronavirus","how helpful are medicines against covid19 virus"],
+         "responses": ["While we are still learning about how COVID-2019 affects people, older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes) appear to develop serious illness more often than others."]
+       },
+       {
+         "tag":"medicines",
+         "patterns": ["Are there any medicines or therapies that can prevent or cure COVID-19?","is there any antibiotics available to treat covid19 virus","medicines that cure covid19","available medicines for coronavirus"],
+         "responses": ["While some western, traditional or home remedies may provide comfort and alleviate symptoms of COVID-19, there is no evidence that current medicine can prevent or cure the disease. WHO does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19. However, there are several ongoing clinical trials that include both western and traditional medicines."]
+       },
+       {
+         "tag":"vaccine",
+         "patterns": ["Is there a vaccine, drug or treatment for COVID-19?","is vaccine available for coronavirus","is vaccine developed for covid19 yet","are there any treatment made for curing covid19"],
+         "responses": ["Yes there are many vaccines available now . Some common vaccines are COVISHIELD , PFIZER , COVAXIN and SPUTNIK etc.You can visit here https://www.cowin.gov.in or Aarogya setu app for boking the slot for your vaccine now"]
+       },
+       {
+         "tag":"doses",
+         "patterns": ["Number of vaccine doses","what is the total count of vaccine doses","what is the required count of doses","what is the time duration between the vaccine doses","how many months of gap is required for the vaccine doses"],
+         "responses": ["Every vaccine has two doses.The duration between those two doses are different for different vaccines like for COVISHIELD there's 3 months of gap whereas in COVAXIN the gap is only 28 days."]
+       },
+       {
+         "tag":"protect",
+         "patterns": ["Should I wear a mask to protect myself from catching the COVID-19 virus?","should one wear mask to protect themselves from covid19","should one waer mask for protection"],
+         "responses": ["Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once. If you are not ill or looking after someone who is ill then you are wasting a mask. There is a world-wide shortage of masks, so WHO urges people to use masks wisely. WHO advises rational use of medical masks to avoid unnecessary wastage of precious resources and mis-use of masks (see Advice on the use of masks). The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing. See basic protective measures against the new coronavirus for more information."]
+       },
+       {
+         "tag":"recovery",
+         "patterns": ["Until when should I wear a mask after recovering from an illness with respiratory symptoms?","till when one should wear mask after recovering","how long one should wear mask post covid recovery","what is the time duration of wearing mask post covid recovery"],
+         "responses": ["In order to avoid infecting others, you should use a mask for as long as you are still coughing or sneezing. You should only stop after a complete recovery (which means 24-48 hours after having no symptoms without medication)."]
+       },
+       {
+         "tag":"suspect",
+         "patterns": ["I am looking after someone who is ill with suspect or confirmed COVID-19. What precautions should I take?","precautions to be taken while staying with infected people","what precaution should on etak while taking care of a covid patient","what to do to prevent covid getting transmitted from other infected person"],
+         "responses": ["You should limit the movement around the house of the individual who is ill and minimize shared space.Ensure shared spaces like bathrooms, and the kitchen are well ventilated. One way to do this is by keeping the windows open. Clean and disinfect the bathroom and toilet surface at least once a day using regular household soap or detergent for cleaning and then disinfecting with a regular household disinfectant containing 0.5% sodium hypochlorite.Do not forget the importance of hand hygiene with alcohol-based hand-rub or soap and water (if hands are visibly soiled).Whenever possible, household members should stay in a different room or maintain a distance of at least 1 meter from the ill person.When helping care for the sick individual, wear a tightly fitted medical/surgical mask that covers your nose and mouth when in the same room as the affected individual.           Make sure you are careful not to touch your mask. If your mask gets wet or dirty, it           should be replaced. When removing a mask, it is important to throw it away and           perform hand hygiene. Dispose of any material with respiratory secretions immediately           after use.         Both the ill individual and you, as the caregiver, should perform hand hygiene after           contact with respiratory secretions."]
+       },
+       {
+         "tag":"transmission",
+         "patterns": ["How long is the incubation and transmission period for COVID-19?","duration of incubation period for covid","incubation and transmission period for coronavirus"],
+         "responses": ["The incubation period means the time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1- 14 days, most commonly around five days."]
+       },
+       {
+         "tag":"animal",
+         "patterns": ["Can humans become infected with the COVID-19 from an animal source?"],
+         "responses": ["Possible animal sources of COVID-19 have not yet been confirmed. To protect yourself, such as when visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals. Ensure good food safety practices at all times. Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products."]
+       },
+       {
+         "tag":"survive",
+         "patterns": ["How long does the covid-19 virus survive on surfaces?","duration of survival of covid virus on surface","whats the maximum time the coronavirus can survive on a surface","on a surface whats the lifespan of covid virus"],
+         "responses": ["It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other coronaviruses. Studies suggest that coronaviruses (including preliminary information on the COVID-19 virus) may persist on surfaces for a few hours or up to several days. This may vary under different conditions (e.g. type of surface, temperature or humidity of the environment). If you think a surface may be infected, clean it with simple disinfectant to kill the virus and protect yourself and others. Clean your hands with an alcohol-based hand rub or wash them with soap and water. Avoid touching your eyes, mouth, or nose."]
+       },
+       {
+         "tag":"test",
+         "patterns": ["How can I get tested for COVID-19?","how to check whether a person has covid or not","what to do if a person is showing symptoms of covid","how to get tested  for covid","prodcedure to get tested","what are the available test for covid report","tests available for covid checkup"],
+         "responses": ["If you are well, no testing is recommended. If you are experiencing symptoms of COVID-19, you should immediately isolate yourself from others. Call your local UN clinic/medical facility to inform them of your condition and relevant travel/exposure history. If you had been identified as a close contact of a case by the local Ministry of Health or WHO, please also indicate this. From here you will be advised if a medical assessment is necessary and how to get tested.Finally , get tested through RT-PCR or Rapid Antigen test"]
+       },
+       {
+         "tag":"alternatives",
+         "patterns": ["What alternatives do I have if there are no hand sanitizers available?","alternatives of hand sanittizers","what is the substitute of hand sanitizers","what can a person use in place of hand sanitizer"],
+         "responses": ["Can I use other       alcohol like ethyl or liquor? If hand sanitizers are not available, hand washing with soap and water is the recommended, and even better, alternative. Liquor is not effective against coronavirus. For an alcohol-based hand rub to be effective, it must have an alcohol content of 60% to 95%."]
+       },
+       {
+         "tag":"again",
+         "patterns": ["Can people who recover from COVID-19 be infected again?","can a person get infected with covid more than once","can a person get infected with covid twice"],
+         "responses": ["We know that for similar coronaviruses, infected people are unlikely to be re-infected shortly after they recover. However, because the immune response to COVID-19 is not yet understood, it is not yet known whether similar immune protection will be observed for patients who have recovered from COVID-19."]
+       },
+       {
+         "tag":"package",
+         "patterns": ["Is it safe to receive a package from an area where COVID-19 has been reported?","can one recieve anything from an area wherre covid is reported","can one buy anything from an area where covid-19 is reported"],
+         "responses": ["Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low."]
+       },
+       {
+         "tag":"connection",
+         "patterns": ["Is there a connection between COVID -19 and environment temperature?","connection between covid19 and environment","is there any link between covid and environment"],
+         "responses": ["It is not known yet if weather and temperature changes impact or has any connection with COVID-19. At this time, it is not clear or known if the spread of COVID-19 will decrease when the weather becomes warmer."]
+       },
+       {
+         "tag":"catch",
+         "patterns": ["Can I catch the virus from being in an enclosed space (i.e. bus, subway) in close proximity to someone who doesn't have respiratory symptoms?"],
+         "responses": ["Since the virus is transmitted through respiratory droplets, the risk of catching it from somebody who is asymptomatic, even a contact of a confirmed COVID-19 case, is low. However, in light of the pandemic, everyone should maintain social distancing, which means keeping at least 1 meter away from others, avoiding mass gatherings and areas with large numbers of people, and practicing frequent hand washing and hand sanitizing according to the recommendation."]
+       },
+       {
+         "tag":"asian",
+         "patterns": ["Should I start avoiding people of Asian descent and their businesses?"],
+         "responses": ["The virus can affect anyone regardless of nationality, race and color. The Organization will not tolerate discrimination and encourages everyone to promote culturally appropriate and empathetic community engagement and to detect and rapidly respond to negative public perceptions and counter misinformation."]
+       },
+       {
+         "tag":"stay",
+         "patterns": ["When should we identify ourselves as \"being sick\" and stay at home?","when should one quarantine himself/herself if they have fever","should i get quarantined if I'm having fever","what to do if i have fever","having fever what to do"],
+         "responses": ["Although a fever is a sure sign that you are sick enough not to come to work, anyone experiencing respiratory symptoms like coughing and sneezing should stay at home."]
+       },
+       {
+         "tag":"colleague",
+         "patterns": ["My colleague is sick but he/she insists that it is just the common cold and is reluctant to work from home. What steps can we take to enforce staying at home when not well amongst staff?","whats steps should one take if a colleague is having common cold ","initiative to be taken at home when a colleague suffering from cold","what to do when a colleague suffering from fever"],
+         "responses": ["While it is very likely that your colleague is only suffering from the common cold or flu, all precautions should, nevertheless, be taken. Managers should encourage staff members with flu symptoms to telecommute for some time until the symptoms have abated. Alternatively, if the staff member is feeling unfit, he/she should take sick leave. This is a sensible approach at any time to prevent the spreading of flu or other seasonal viruses. Supervisors are also encouraged to exercise flexibility in terms of using remote working arrangements if the staff member would like to limit their contact with others and work from home."]
+       },
+       {
+         "tag":"sanitizers",
+         "patterns": ["What can we do if we don't have any hand sanitizers in the office building?","if sanitizers not available in building then what should one do","sanitizers not there in towers and buildings"],
+         "responses": ["You should contact the Facilities Management Service of your local UN duty station, organization or the building administration."]
+       }
+   ]
+}
