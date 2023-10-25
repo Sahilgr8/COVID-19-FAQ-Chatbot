@@ -8,3 +8,6 @@ We have made this chatbot to help people know all the COVID19 frequently asked q
 - pip install -r requirements.txt
 2. Then run train_chatbot.py in order to train the data and create the model
 3. Finally run the chatgui.py file in order to use the chatbot.
+
+## Output
+![image](https://github.com/Sahilgr8/COVID-19-FAQ-Chatbot/blob/main/COVID-19Chatbot.jpg)
